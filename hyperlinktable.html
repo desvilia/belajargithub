@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <title>Belajar Link dan Table</title>
+  <style>
+    h1 {
+      background-color: yellowgreen;
+      color: white;
+    }
+    table,th,td {
+        margin : 25px 0;
+        padding: 15 px;
+        text-align: center;
+        background-color: rgb(159, 251, 113);
+        border-collapse: collapse;
+        margin-left: 8px;
+    }
+
+    td{
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 4px;
+        padding-bottom: 5px;
+    }
+    th {
+        text-align: center;
+        background-color: rgb(27, 234, 165);
+        padding: 14px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Universitas Multi Data Palembang</h1>
+  <h1>Praktikum Hyperlink</h1>
+
+  <a href="https://www.detik.com/">Detik.com</a>
+  <br />
+  <a href="https://www.kompas.com/" target="_blank">Klik Menuju Kompas</a>
+  <hr />
+  <h1>Praktikum Table</h1>
+
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Alamat</th>
+      <th>Pekerjaan</th>
+      <th>Kota</th>
+    </tr>
+
+    <tr>
+      <td>Bobob SUS</td>
+      <td>Jl.Sepanjang Jalan Kenangan.No 1</td>
+      <td>Nganggur</td>
+      <td>Depok</td>
+    </tr>
+  </table>
+  <hr />
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Alamat</th>
+      <th>Pekerjaan</th>
+      <th>Kota</th>
+    </tr>
+    <tr>
+      <td>Desvilia</td>
+      <td>Jl.Dr.M.isa No.12</td>
+      <td>jalan</td>
+      <td>Palembang</td>
+    </tr>
+  </table>
+  <hr />
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th colspan="2">Alamat</th>
+      <th>Kota</th>
+    </tr>
+    <tr>
+      <td>Sukajadi</td>
+      <td>Rumah : Jalan jalan No.1</td>
+      <td>Kantor : Jl.Hahaha No.2</td>
+      <td>Palembang</td>
+    </tr>
+  </table>
+  <hr/>
+  <table>
+    <tr>
+        <th>Nama Lengkap</th>
+        <td>Sukajadi</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Alamat</th>
+        <td>Rumah: Jl. Kalimantan No.1</td>
+    </tr>
+    <tr>
+        <td>Kantor :JL. Kalimantan</td>
+    </tr>
+  </table>
+</body>
