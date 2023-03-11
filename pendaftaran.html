@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=  , initial-scale=1.0" />
+    <title>Pendaftaraan Calon Mahasiswa</title>
+  </head>
+  <body style="background-color: chartreuse">
+    <h1>Pendaftaraan Mahasiswa Baru</h1>
+    <form action="" method="post">
+      <fieldset style="float: left">
+        <legend>Biodata Calon Mahasiswa</legend>
+
+        <table>
+          <tr>
+            <th>No.Daftar</th>
+            <td>:</td>
+            <td><input type="text" name="nodaftar" size="40" /></td>
+          </tr>
+          <tr>
+            <th>Nama</th>
+            <td>:</td>
+            <td><input type="text" name="nama" /></td>
+          </tr>
+          <tr>
+            <th>Tanggal Lahir</th>
+            <td>:</td>
+            <td><input type="number" name="tanggallahir" /></td>
+          </tr>
+             <tr>
+            <th>Tinggi Badan</th>
+            <td>:</td>
+            <td><b><input type="number" name="tinggibadan" />CM</td><b>
+          </tr>
+          <tr>
+            <th>Alamat</th>
+            <td>:</td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset style="float: left">
+        <legend>Pendaftaraan</legend>
+        <table>
+          <tr>
+            <th>Penerimaan</th>
+            <td>:</td>
+            <td>
+              <select name="Gelombang" style="padding: 5px">
+                <option value="01">Gelombang I</option>
+                <option value="02">Gelombang II</option>
+                <option value="03">Gelombang III</option>
+                <option value="04">Gelombang IV</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Program Studi</th>
+            <td>:</td>
+            <td>
+              <select name="programstudi">
+                <option value="-1">Silahkan pilih satu</option>
+                <optgroup label="Falkutas Ilmu Komputer">
+                  <option value="SI">Sistem Informasi</option>
+                  <option value="IF">Informatika</option>
+                </optgroup>
+                <optgroup label="Falkutas Ilmu Ekonomi">
+                  <option value="MN">Manajemen</option>
+                  <option value="AK">Akuntansi</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td><input type="submit"><input type="reset"></td>
+          </tr>
+
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
